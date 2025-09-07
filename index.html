@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tengrux 22.3 Nebula</title>
+    <style>
+        /* Temel stil ve renkler */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #151526;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #151526;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 2px solid #440000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            color: #440000; /* Tengrux ana renk */
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        main p {
+            max-width: 700px;
+            line-height: 1.6;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background-color: #440000; /* Tengrux ana vurgu rengi */
+            color: #ffffff;
+            padding: 15px 35px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            font-size: 1.1em;
+        }
+
+        .btn-download:hover {
+            background-color: #660000; /* Hover rengi */
+        }
+
+        footer {
+            background-color: #151526;
+            border-top: 2px solid #440000;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            main p {
+                font-size: 1em;
+            }
+
+            .btn-download {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tengrux 22.3 Nebula</h1>
+    </header>
+
+    <main>
+        <p>
+            Linux özgürlüğünü deneyimle! Tengrux 22.3 Nebula ile tamamen özgün, hızlı ve güvenli bir GNU/Linux deneyimi seni bekliyor.
+        </p>
+        <a href="assets/Tengrux-22.3.iso" class="btn-download">ISO’yu İndir</a>
+    </main>
+
+    <footer>
+        &copy; 2025 Tengrux Project. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
